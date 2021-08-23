@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom style */
+
+main {
+    background-color:rgb(213,207,167) ;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    padding: 10px;
+    font-size: 18px;
+}
+/* Header */
+
+.header {
+    background-color: rgb(248,97,20);
+    padding: 20px 0;
+}
+.nav a {
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/* Hero */
+
+.col {
+    background-color: rgb(0,89,121);
+    color: rgb(152,175,152);
+    padding: 20px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+    margin: 30px 0;
+    width: 28%;
+}
+.col-1 ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+.col-2 ul, ol {
+    list-style-type: disc;
+    list-style-position: inside;
+} 
+.col-3 ul {
+    list-style-position: inside;
+}
+.image-style {
+    list-style-image:url(../media/right.png) ;   
+}
+
+/* Text */
+
+p {
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(63,67,54);
+}
+h1, h2 {
+    color: rgb(63,67,54);
+    font-size: 36px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+h1 {
+    font-size: 40px;
+}
+.three-col li {
+    width: 10px;
+    height: 10px;
+}
+.menu {
+    margin-left: 25px;
+    list-style-type: decimal;
+}
+.sub-menu {
+    margin-left: 50px;
+}
+
+/* footer */
+
+.footer {
+    background-color:rgb(36,45,34) ;
+    padding: 40px;
+}
